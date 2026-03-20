@@ -15,7 +15,7 @@ A grandes rasgos, los pasos que seguiremos para la elaboración de la aplicació
 1. Creación de los componentes necesarios para la mostrar la información básica de la aplicación.
 2. Añadir un formulario para la creación de nuevos eventos. Filtrar y ordenar eventos. Manejo de imágenes.
 3. Gestionar componentes anidados de la aplicación. Data binding. Servicios.
-4. Conectarse con una *API Web* para almacenar la información del usuario en un *servidor web externo*, incluyendo autenticación de usuario. De esta manera el usuario podrá acceder a sus datos desde cualquier navegador.
+4. Conectarse con una *API Web* para almacenar la información del usuario en un *servidor web externo*.
 5. Utilización de `Vue Router` para poder navegar entre distintas páginas de nuestra aplicación.
 6. Gestión de eventos dentro de la aplicación.
 7. Añadir mecanismos de *validación* para controlar la correcta introducción de datos por parte del usuario.
