@@ -24,5 +24,5 @@ A grandes rasgos, los pasos que seguiremos para la elaboración de la aplicació
       
 A continuación se muestran los enlaces a los enunciados de cada una de las prácticas:
 
-
+1. [Componentes](enunciados/1_componentes.md)
 
