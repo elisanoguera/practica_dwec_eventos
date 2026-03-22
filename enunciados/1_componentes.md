@@ -10,6 +10,22 @@ En esta primera práctica se deberá realizar un /fork/ del repositorio base. Al
 
 Dicho repositorio personal se utilizará para sucesivas prácticas. La profesora irá añadiendo nuevas tareas cada semana. En cada nueva práctica se darán las instrucciones de cómo proceder para incorporar las nuevas tareas a realizar.
 
+## Requisitos de software
+
+Para trabajar con `VueJS` (en desarrollo), es imprescindible tener instalado `Node.js`, que incluye `npm` (`Node Package Manager`).
+
+Requisitos: 
+- `Node.js v18` o superior (recomendado: `v20.x`)
+- `npm v9` o superior
+- Un entorno de desarrollo (recomendado `Visual Studio Code`).
+
+Comprobación (ejecutar en terminal):
+
+```sh
+node -v
+npm -v
+```
+
 ## Preparación
 1. Instalar los requisitos de software indicados
 2. Hacer un /fork/ del repositorio base https://github.com/elisanoguera/practica_dwec_eventos.git en tu cuenta de GitHub
