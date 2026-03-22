@@ -50,9 +50,9 @@ npm create vite@latest [nombre-proyecto-vue]
    
 4. Selecciona el lenguaje: `JavaScript`
    
-6. Selecciona `No`, cuando pregunta si se intala `npm` y empezar ahora. Lo realizaremos a continuación.
+5. Selecciona `No`, cuando pregunta si se intala `npm` y empezar ahora. Lo realizaremos a continuación.
 
-7. Finalmente, recuerda que debes ejecutar:
+6. Finalmente, recuerda que debes ejecutar:
 
 ```sh
 cd nombre-proyecto-vue
@@ -60,9 +60,9 @@ npm install
 npm run dev
 ```
 
-6. Ahora podemos abrir la carpeta del proyecto en `VS Code` y probar su funcionamiento en el navegador. Deberíamos ver algo así:
+7. Ahora podemos abrir la carpeta del proyecto en `VS Code` y probar su funcionamiento en el navegador. Deberíamos ver algo así:
 
-   
+![Visualización inicial proyecto Vite en el navegador](img/vite.png)
 
 8. Un proyecto creado con `Vite` tiene la siguiente estructura (básica):
 
