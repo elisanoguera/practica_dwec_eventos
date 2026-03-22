@@ -33,6 +33,48 @@ npm -v
 4. Clonar *tu repositorio* (el que se ha creado en tu cuenta al hacer el /fork/, no el repositorio base) al equipo local mediante `git clone`
 5. Acceder a la carpeta del repositorio
 
+## Creación de un proyecto con Vite
+
+Para crear un proyecto `VueJS` emplearemos `Vite`, es la herramienta recomendada para proyectos `Vue 3` por su rapidez y
+simplicidad. Se trata de un `build tool` moderno que reemplaza a herramientas más lentas como `Webpack`. Para crear un proyecto:
+
+1. Abre el terminal y ejecuta:
+
+```sh
+npm create vite@latest [nombreProyectoVue]
+```
+
+2. Confirma el nombre del proyecto `(nombreProyectoVue)`
+   
+3. Selecciona el framework: `Vue`
+   
+4. Selecciona el lenguaje: `JavaScript` (lenguaje documentación)
+
+5. Finalmente, recuerda que debes ejecutar:
+
+```sh
+cd nombreProyectoVue
+npm install
+npm run dev
+```
+
+6. Ahora podemos abrir la carpeta del proyecto en `VS Code` y probar su funcionamiento en el navegador. Deberíamos ver algo así:
+
+7. Un proyecto creado con `Vite` tiene la siguiente estructura (básica):
+
+```text
+nombreProyectoVue/
+├── public/            # Archivos estáticos (imágenes, etc.)
+├── src/               # Código fuente de la aplicación
+│   ├── assets/        # Recursos (imágenes o estilos)
+│   ├── components/    # Componentes reutilizables
+│   ├── App.vue        # Componente raíz
+│   └── main.js        # Punto de entrada de la aplicación
+├── index.html         # Archivo HTML principal
+├── package.json       # Dependencias y scripts
+└── vite.config.js     # Configuración de Vite   
+```
+
 ## Tareas a realizar
 
 
