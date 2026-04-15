@@ -13,7 +13,7 @@ De esta manera podremos profundizar en el framework `VueJS` en el contexto de un
 A grandes rasgos, los pasos que seguiremos para la elaboración de la aplicación serán los siguientes:
    
 1. Creación de los componentes necesarios para mostrar la información básica de la aplicación.
-2. Filtrar y ordenar eventos. 
+2. Filtrar eventos. 
 3. Añadir un formulario para la creación de nuevos eventos.
 4. Conectarse con una *API Web* para almacenar la información del usuario en un *servidor web externo*.
 5. Utilización de `Vue Router` para poder navegar entre distintas páginas de nuestra aplicación.
@@ -25,4 +25,5 @@ A grandes rasgos, los pasos que seguiremos para la elaboración de la aplicació
 A continuación se muestran los enlaces a los enunciados de cada una de las prácticas:
 
 1. [Componentes](enunciados/1_componentes.md)
+2. [Filtros](enunciados/2_filtros.md)
 
