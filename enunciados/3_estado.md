@@ -28,18 +28,14 @@ npm -v
 1. Instalar los requisitos de software indicados
 2. Abrir un terminal
 3. Situarse en la carpeta del repositorio personal de la práctica
-4. **Añadir el remoto secundario** a tu repositorio personal. Para ello hay que ejecutar el comando:
-   ```sh
-     git remote add profesora https://github.com/elisanoguera/practica_dwec_eventos.git
-   ```
-5. **Incorporar a tu repositorio personal los cambios** realizados por la profesora correspondientes a los archivos de esta práctica. Para ello hay que ejecutar:
+4. **Incorporar a tu repositorio personal los cambios** realizados por la profesora correspondientes a los archivos de esta práctica. Para ello hay que ejecutar:
    ```sh
      git pull profesora main
    ```
-6. Este comando **descarga** los cambios que ha realizado la **profesora** en el **repositorio base** y los **integra** en tu repositorio personal. Tras realizar este paso, seguramente *git* **abra el editor configurado por defecto** para que introduzcas un **mensaje para crear un nuevo commit** que integre tus cambios y los cambios de la profesora. Debes introducir el texto y guardar los cambios.
-7. En principio no deben producirse **conflictos**. En caso de que se produzcan (por ejemplo, porque has editado el fichero `.gitignore` y yo también porque lo exigía la práctica), **resuélvelos y notifícamelo a través de un Issue**.
-8. Ejecuta el comando `git push` para subir los cambios a tu repositorio personal (el remoto principal) en *GitHub* y que queden guardados ahí también.
-9. Ejecutar el comando `npm install`. Este comando instalará todas las librerías de *Node* necesarias para ejecutar la aplicación. Dichas librerías se guardarán en una carpeta con nombre `node_modules` dentro del repositorio. Nótese que dicha carpeta está excluida del repositorio en el archivo `.gitignore`.
+5. Este comando **descarga** los cambios que ha realizado la **profesora** en el **repositorio base** y los **integra** en tu repositorio personal. Tras realizar este paso, seguramente *git* **abra el editor configurado por defecto** para que introduzcas un **mensaje para crear un nuevo commit** que integre tus cambios y los cambios de la profesora. Debes introducir el texto y guardar los cambios.
+6. En principio no deben producirse **conflictos**. En caso de que se produzcan (por ejemplo, porque has editado el fichero `.gitignore` y yo también porque lo exigía la práctica), **resuélvelos y notifícamelo a través de un Issue**.
+7. Ejecuta el comando `git push` para subir los cambios a tu repositorio personal (el remoto principal) en *GitHub* y que queden guardados ahí también.
+8. Ejecutar el comando `npm install`. Este comando instalará todas las librerías de *Node* necesarias para ejecutar la aplicación. Dichas librerías se guardarán en una carpeta con nombre `node_modules` dentro del repositorio. Nótese que dicha carpeta está excluida del repositorio en el archivo `.gitignore`.
 
 ## Integrar Pinia en nuestro proyecto
 
@@ -90,7 +86,7 @@ A continuación, se explica qué modificaciones debemos realizar en nuestro proy
 
 #### Almacen (`Store`) `eventosStore`
 
-Crea el fichero `eventosStore.vue` (estará ubicado en la carpeta `src/stores`) con la siguiente información:
+Crea el fichero `eventosStore.js` (estará ubicado en la carpeta `src/stores`) con la siguiente información:
 
 - Librerías
     - Importa `defineStore` de `Pinia` y `reactive` de `vue`:
@@ -99,7 +95,7 @@ Crea el fichero `eventosStore.vue` (estará ubicado en la carpeta `src/stores`) 
           import { reactive } from 'vue'
         ```
 - Variables de datos    
-    - `useEventosStore` - Define una *store* llamada `useEventosStore` con el método `defineStore`. Dentro de `useEventosStore`, copia la variable `eventos` que definimos en el componente `App`. Borra la variable `eventos` de `App`. A partir de ahora, tendremos esta variable disponible en nuestra `store`.
+    - `useEventosStore` - Define una *store* llamada `useEventosStore` con el método `defineStore`. Dentro de `useEventosStore`, copia la variable `eventos` que definimos en el componente `App`. A partir de ahora, tendremos esta variable `eventos` disponible en nuestra `store`.
 
 #### Componente principal `App`
 
