@@ -13,17 +13,18 @@ De esta manera podremos profundizar en el framework `VueJS` en el contexto de un
 A grandes rasgos, los pasos que seguiremos para la elaboración de la aplicación serán los siguientes:
    
 1. Creación de los componentes necesarios para mostrar la información básica de la aplicación.
-2. Filtrar eventos. 
-3. Añadir un formulario para la creación de nuevos eventos.
-4. Conectarse con una *API Web* para almacenar la información del usuario en un *servidor web externo*.
-5. Utilización de `Vue Router` para poder navegar entre distintas páginas de nuestra aplicación.
-6. Gestión de eventos dentro de la aplicación.
-7. Añadir mecanismos de *validación* para controlar la correcta introducción de datos por parte del usuario.
-8. Conexión con *librerías externas* dentro de la aplicación.
-9. Autenticación en la aplicación para acceso a la parte privada.
+2. Filtrar eventos.
+3. Gestión del estado.
+4. Añadir un formulario para la creación de nuevos eventos.
+5. Conectarse con una *API Web* para almacenar la información del usuario en un *servidor web externo*.
+6. Utilización de `Vue Router` para poder navegar entre distintas páginas de nuestra aplicación.
+7. Gestión de eventos dentro de la aplicación.
+8. Añadir mecanismos de *validación* para controlar la correcta introducción de datos por parte del usuario.
+9. Conexión con *librerías externas* dentro de la aplicación.
+10. Autenticación en la aplicación para acceso a la parte privada.
       
 A continuación se muestran los enlaces a los enunciados de cada una de las prácticas:
 
 1. [Componentes](enunciados/1_componentes.md)
 2. [Filtros](enunciados/2_filtros.md)
-
+3. [Gestión del estado](enunciados/3_estado.md)
